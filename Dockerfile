@@ -1,3 +1,4 @@
 FROM scratch
-RUN docker-compose -v
+RUN ls
+RUN docker --version
 CMD ["echo", "Hello!"]

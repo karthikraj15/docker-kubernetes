@@ -1,3 +1,3 @@
 FROM phpmyadmin
-ENV PMA_HOST=https://mysql-66rn.onrender.com
+ENV PMA_HOST=https://mysql-vn61.onrender.com
 EXPOSE 80/tcp

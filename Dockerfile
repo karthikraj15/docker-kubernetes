@@ -1,5 +1,0 @@
-FROM mysql
-ENV MYSQL_ROOT_PASSWORD=abc123
-
-FROM phpmyadmin
-EXPOSE 80/tcp

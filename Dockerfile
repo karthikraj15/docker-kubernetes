@@ -1,3 +1,3 @@
-FROM alpine
+FROM scratch
+RUN docker-compose -v
 CMD ["echo", "Hello!"]
-docker-compose  -f phpmyadmin.yaml up -d

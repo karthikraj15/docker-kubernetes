@@ -6,7 +6,7 @@
 
 #### K8s commands
 
-##### start Minikube and check status
+##### start Minikube and check status       ------should have docker installed
     minikube start --vm-driver=hyperkit      or             minikube start --driver docker
     minikube status
 

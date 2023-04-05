@@ -1,6 +1,7 @@
-FROM python:3.8-slim
-RUN pip3 install -U docker-compose
-RUN docker-compose -v
-COPY phpmyadmin.yaml .
-RUN ls
-RUN docker-compose -f phpmyadmin.yaml up -d
+FROM alpine
+RUN apt-get update -y
+RUN apt-get upgrade -y
+
+RUN apt-get install -y curl
+RUN apt-get install -y apt-transport-https
+RUN uname -v
